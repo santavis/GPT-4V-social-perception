@@ -12,6 +12,6 @@ GPT-4V-social-perception
 </div>
 
 
-The repository contains data and analysis script used in the research article "TITLE" published int "JOURNAL"
+The repository contains data and analysis script used in the research article "TITLE" published in "JOURNAL"
 
 Code by Severi Santavirta & Yuhang Wu
