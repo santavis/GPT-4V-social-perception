@@ -1,5 +1,4 @@
 
-<h1 align="center">
 GPT-4V shows human-like social perceptual capabilities at phenomenological and neural levels
 
 The repository contains data and analysis script used in the research article "GPT-4V shows human-like social perceptual capabilities at phenomenological and neural levels", "LINK".
