@@ -1,19 +1,8 @@
 
 <h1 align="center">
-GPT-4V-social-perception
-</h1>
+GPT-4V shows human-like social perceptual capabilities at phenomenological and neural levels
 
-<div align="center">
-
-[![](https://img.shields.io/github/stars/santavis/GPT-4V-social-perception)](https://github.com/santavis/GPT-4V-social-perception)
-[![](https://img.shields.io/github/forks/santavis/GPT-4V-social-perception)](https://github.com/santavis/GPT-4V-social-perception)
-[![](https://img.shields.io/github/issues/santavis/GPT-4V-social-perception)](https://github.com/santavis/GPT-4V-social-perception)
-[![](https://img.shields.io/github/license/santavis/GPT-4V-social-perception)](https://github.com/santavis/GPT-4V-social-perception/blob/main/LICENSE) 
-</div>
-
-
-The repository contains data and analysis script used in the research article "GPT-4V shows human-like social perceptual capabilities at phenomenological and neural levels![image](https://github.com/user-attachments/assets/634233e1-80ed-42cb-8127-7eebc2e212a6)
-" published in "JOURNAL".
+The repository contains data and analysis script used in the research article "GPT-4V shows human-like social perceptual capabilities at phenomenological and neural levels", "LINK".
 
 Code by Severi Santavirta & Yuhang Wu
 
