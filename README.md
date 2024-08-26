@@ -1,4 +1,4 @@
-The repository contains data and analysis script used in the research article "GPT-4V shows human-like social perceptual capabilities at phenomenological and neural levels", "LINK".
+The repository contains data and analysis script used in the research article "GPT-4V shows human-like social perceptual capabilities at phenomenological and neural levels", preprint: https://www.biorxiv.org/content/10.1101/2024.08.20.608741v1.
 
 Code by Severi Santavirta & Yuhang Wu
 
