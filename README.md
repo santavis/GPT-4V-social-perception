@@ -1,11 +1,11 @@
 The repository contains data and analysis script used in the research article "GPT-4V shows human-like social perceptual capabilities at phenomenological and neural levels", preprint: https://www.biorxiv.org/content/10.1101/2024.08.20.608741v1.
 
-Code by Severi Santavirta & Yuhang Wu
+Code by Severi Santavirta, Yuhang Wu & Lauri Suominen
 
 Detailed description of the workflow can be found in the article. 
 
 Please cite the article if you use these codes.
 
-Our previous work on the taxonomy of human social perception: https://www.biorxiv.org/content/10.1101/2023.09.28.559888v4
+Our previous work on the taxonomy of human social perception: https://doi.org/10.1037/pspa0000415 (final preprint: https://www.biorxiv.org/content/10.1101/2023.09.28.559888v4)
 
 Check out our lab pages: https://emotion.utu.fi/
