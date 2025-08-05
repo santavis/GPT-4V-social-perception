@@ -138,7 +138,7 @@ r_overall <- cor(combined_data$gpt_value,combined_data$human_value)
 # Scatterplot the feature specific correlations against the correlations between humans. Plot separately for each k (k: Number of humans to be left out from the calculation)
 
 k = c(1,2,3,4,5)
-avgcor_gpt_better <- matrix(NA,nrow = length(k),ncol = 4)
+avgcor_gpt_better <- matrix(NA,nrow = length(k),ncol = 5)
 require(lattice)
 for(ki in k){
   
@@ -167,10 +167,14 @@ for(ki in k){
   avgcor_gpt_better[ki,2] <- sum(avg_data$gpt > avg_data$human)/nrow(avg_data) # Percentage
   avgcor_gpt_better[ki,3] <- tanh(mean(atanh(avg_data$gpt))) # Mean cor GPT
   avgcor_gpt_better[ki,4] <- tanh(mean(atanh(avg_data$human))) # Mean cor human
+
+  # Compare the Fischer transformed correlation to assess whether the agreement of GPT-4V is, on average, higher than the intersubject/group-level consistency.
+  ttest <- t.test(atanh(avg_data$gpt),atanh(avg_data$human))
+  avgcor_gpt_better[ki,5] <- ttest$p.value
 }
 
 avgcor_gpt_better <- as.data.frame(avgcor_gpt_better)
-colnames(avgcor_gpt_better) <- c("gpt_better","gpt_better_perc","gpt_avgcor","human_avgcor")
+colnames(avgcor_gpt_better) <- c("gpt_better","gpt_better_perc","gpt_avgcor","human_avgcor","ttest_pval")
 
 ##-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 # Similarities of the clustering results
