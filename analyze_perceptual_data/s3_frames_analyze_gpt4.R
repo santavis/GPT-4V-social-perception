@@ -118,7 +118,7 @@ combined_data$human_value <- ((combined_data$human_value - 0) / (100 - 0))*10
 # Scatterplot over all features 
 pdf("/path/results_megaperception_frames/scatterplot_socialfeatures.pdf",width = 8, height = 8)
 ggplot(combined_data,aes(x = human_value, y = gpt_value)) +
-  geom_hex(bins = 25, aes(fill = ..density.., alpha = ..density..),show.legend = FALSE) +
+  geom_hex(bins = 25, aes(fill =..count../sum(..count..), alpha =..count..)) +
   scale_fill_gradientn(colors = c("blue","red")) +
   scale_alpha_continuous(range = c(0.1,20)) + # Adjust the range as needed
   theme_minimal() +
@@ -128,7 +128,7 @@ ggplot(combined_data,aes(x = human_value, y = gpt_value)) +
         plot.title = element_text(hjust = 0.5, size = 32),
         axis.text.x = element_text(size = 24),  # Adjust x-axis tick size
         axis.text.y = element_text(size = 24),
-        legend.position = "none") +
+        legend.position = "none") + # Change to "none" for hiding the colour bar
   geom_abline(slope = 1, intercept = 0, color = "black", size= 3)
 dev.off()
 
