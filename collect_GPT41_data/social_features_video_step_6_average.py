@@ -1,5 +1,5 @@
 """
-This is the sixth and last step in collecting image data.
+This is the sixth and last step in collecting video data.
 This will calculate the average of all possible combinations of your final output files.
 
 Lauri Suominen 05.06.2025
